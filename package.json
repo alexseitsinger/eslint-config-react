@@ -24,14 +24,12 @@
   "main": "src/index.js",
   "name": "@alexseitsinger/eslint-config-react",
   "peerDependencies": {
-    "eslint": "^5.16.0"
+    "eslint": "^5.16.0",
+    "eslint-plugin-react": "7.13.0"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/alexseitsinger/eslint-config-react.git"
   },
-  "version": "0.0.0",
-  "dependencies": {
-    "eslint-plugin-react": "7.13.0"
-  }
+  "version": "0.1.0"
 }
