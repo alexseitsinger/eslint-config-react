@@ -1,4 +1,9 @@
 module.exports = {
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+  },
   plugins: [
     "react",
   ],
@@ -9,7 +14,7 @@ module.exports = {
     ],
   },
   extends: [
-    "./lib/general",
-    "./lib/jsx",
+    "./rules/general",
+    "./rules/jsx",
   ].map(require.resolve)
 }
