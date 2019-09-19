@@ -1,8 +1,7 @@
 {
   "author": {
     "email": "software@alexseitsinger.com",
-    "name": "Alex Seitsinger",
-    "url": "https://www.alexseitsinger.com"
+    "name": "Alex Seitsinger"
   },
   "bugs": {
     "url": "https://github.com/alexseitsinger/eslint-config-react/issues"
@@ -14,14 +13,14 @@
     "README.md",
     "LICENSE"
   ],
-  "homepage": "https://www.alexseitsinger.com/packages/node/eslint-config-react",
+  "homepage": "https://github.com/alexseitsinger/eslint-config-react",
   "keywords": [
     "eslint",
     "eslintconfig",
     "react"
   ],
   "license": "BSD-2-Clause",
-  "main": "src/index.js",
+  "main": "index.js",
   "name": "@alexseitsinger/eslint-config-react",
   "peerDependencies": {
     "eslint": "^5.16.0",
