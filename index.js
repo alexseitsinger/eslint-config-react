@@ -1,3 +1,15 @@
+/**
+ * Eslint config for React.
+ *
+ * @example
+ * module.exports = {
+ *   root: true,
+ *   extends: [
+ *     "@alexseitsinger/eslint-config-base",
+ *     "@alexseitsinger/eslint-config-react",
+ *   ],
+ * }
+ */
 module.exports = {
   parserOptions: {
     ecmaFeatures: {
