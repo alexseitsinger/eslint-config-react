@@ -6,7 +6,7 @@
   "bugs": {
     "url": "https://github.com/alexseitsinger/eslint-config-react/issues"
   },
-  "description": "ESLint config for react",
+  "description": "Eslint config for React",
   "files": [
     "index.js",
     "rules/*",
@@ -25,7 +25,7 @@
   "name": "@alexseitsinger/eslint-config-react",
   "peerDependencies": {
     "eslint": "^5.16.0",
-    "eslint-plugin-react": "^7.13.0"
+    "eslint-plugin-react": "^7.14.3"
   },
   "repository": {
     "type": "git",
