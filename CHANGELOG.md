@@ -1,3 +1,10 @@
+<a name="v0.7.0"></a>
+## [v0.7.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.6.0...v0.7.0) (2019-10-20)
+
+### Code Refactoring
+- Unforbids object proptypes for css. ([b96adff](https://github.com/alexseitsinger/eslint-config-react/commit/b96adff09f174ce1d53a3c8c595aa58383ac0312))
+
+
 <a name="v0.6.0"></a>
 ## [v0.6.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.5.0...v0.6.0) (2019-10-20)
 
