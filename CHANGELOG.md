@@ -1,3 +1,10 @@
+<a name="v0.5.0"></a>
+## [v0.5.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.4.0...v0.5.0) (2019-10-20)
+
+### Code Refactoring
+- Changes static property assignment. ([2bb182a](https://github.com/alexseitsinger/eslint-config-react/commit/2bb182a8c51ccb5755448986d0d0b3d88a042080))
+
+
 <a name="v0.4.0"></a>
 ## [v0.4.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.3.0...v0.4.0) (2019-09-20)
 
