@@ -682,9 +682,9 @@ module.exports = {
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/static-property-placement.md
      *
      * @example
-     * ["error", "property assignment"]
+     * ["error", "static public field"]
      */
-    "react/static-property-placement": ["error", "property assignment"],
+    "react/static-property-placement": ["error", "static public field"],
 
     /**
      * Enforce style prop value being an object.
