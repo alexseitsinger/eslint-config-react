@@ -133,13 +133,13 @@ module.exports = {
      *
      * @example
      * ["error", {
-     *  forbid: ["any", "array", "object"],
+     *  forbid: ["any", "array"],
      *  checkContextTypes: false,
      *  checkChildContextTypes: false,
      * }]
      */
     "react/forbid-prop-types": ["error", {
-      forbid: ["any", "array", "object"],
+      forbid: ["any", "array"],
       checkContextTypes: false,
       checkChildContextTypes: false,
     }],
