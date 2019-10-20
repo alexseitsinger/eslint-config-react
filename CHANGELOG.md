@@ -1,3 +1,10 @@
+<a name="v0.9.0"></a>
+## [v0.9.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.8.0...v0.9.0) (2019-10-20)
+
+### Code Refactoring
+- Moves lifecycle methods position. ([0abff0a](https://github.com/alexseitsinger/eslint-config-react/commit/0abff0af29fcd257c18bc233cc9f2ec51e5a964d))
+
+
 <a name="v0.8.0"></a>
 ## [v0.8.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.7.0...v0.8.0) (2019-10-20)
 
