@@ -596,20 +596,23 @@ module.exports = {
      * }]
      */
     "react/sort-comp": ["error", {
-      "order": [
-        "static-methods",
+      order: [
+        "static-variables",
         "instance-variables",
-        "lifecycle",
-        "/^on.+$/",
-        "getters",
-        "setters",
-        "/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/",
+        "lifecycle-variables",
+        "static-methods",
         "instance-methods",
+        "event-methods",
         "everything-else",
+        "lifecycle-methods",
         "rendering",
       ],
-      "groups": {
-        "lifecycle": [
+      groups: {
+        "event-methods": [
+          "/^handle.+$/",
+          "/^on.+$/",
+        ],
+        "lifecycle-variables": [
           'displayName',
           'propTypes',
           'contextTypes',
@@ -617,10 +620,12 @@ module.exports = {
           'mixins',
           'statics',
           'defaultProps',
+          'state',
+        ],
+        "lifecycle-methods": [
           'constructor',
           'getDefaultProps',
           'getInitialState',
-          'state',
           'getChildContext',
           'getDerivedStateFromProps',
           'componentWillMount',
