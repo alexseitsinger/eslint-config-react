@@ -602,9 +602,9 @@ module.exports = {
         "lifecycle-variables",
         "static-methods",
         "instance-methods",
+        "lifecycle-methods",
         "event-methods",
         "everything-else",
-        "lifecycle-methods",
         "rendering",
       ],
       groups: {
