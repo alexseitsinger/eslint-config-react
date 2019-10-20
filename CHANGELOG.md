@@ -1,3 +1,10 @@
+<a name="v0.6.0"></a>
+## [v0.6.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.5.0...v0.6.0) (2019-10-20)
+
+### Code Refactoring
+- Re-sort sort-comp rule. ([5f2c88f](https://github.com/alexseitsinger/eslint-config-react/commit/5f2c88fe1bbbf00a8080bc41a26ae0c4160cbfbe))
+
+
 <a name="v0.5.0"></a>
 ## [v0.5.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.4.0...v0.5.0) (2019-10-20)
 
