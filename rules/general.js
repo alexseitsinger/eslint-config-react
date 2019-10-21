@@ -312,9 +312,9 @@ module.exports = {
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/no-set-state.md
      *
      * @example
-     * "error"
+     * "off"
      */
-    "react/no-set-state": "error",
+    "react/no-set-state": "off",
 
     /**
      * Prevent common casing typos.
@@ -598,11 +598,11 @@ module.exports = {
     "react/sort-comp": ["error", {
       order: [
         "static-variables",
-        "instance-variables",
         "lifecycle-variables",
         "lifecycle-methods",
         "static-methods",
         "event-methods",
+        "instance-variables",
         "instance-methods",
         "everything-else",
         "rendering",
