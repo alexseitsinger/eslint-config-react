@@ -1,3 +1,10 @@
+<a name="v0.10.0"></a>
+## [v0.10.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.9.0...v0.10.0) (2019-10-21)
+
+### Code Refactoring
+- Moves instance-methods. ([21197b2](https://github.com/alexseitsinger/eslint-config-react/commit/21197b2df950021636807f66cf33372f68d431f1))
+
+
 <a name="v0.9.0"></a>
 ## [v0.9.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.8.0...v0.9.0) (2019-10-20)
 
