@@ -1,15 +1,3 @@
-/**
- * Eslint config for React.
- *
- * @example
- * module.exports = {
- *   root: true,
- *   extends: [
- *     "@alexseitsinger/eslint-config-base",
- *     "@alexseitsinger/eslint-config-react",
- *   ],
- * }
- */
 module.exports = {
   parserOptions: {
     ecmaFeatures: {
@@ -18,6 +6,7 @@ module.exports = {
   },
   plugins: [
     "react",
+    "react-hooks",
   ],
   settings: {
     linkComponents: [
@@ -28,5 +17,6 @@ module.exports = {
   extends: [
     "./rules/general",
     "./rules/jsx",
+    "./rules/hooks",
   ].map(require.resolve)
 }
