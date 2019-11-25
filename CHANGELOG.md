@@ -1,3 +1,10 @@
+<a name="v0.11.0"></a>
+## [v0.11.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.10.0...v0.11.0) (2019-11-25)
+
+### Features
+- Adds hooks support ([1a10d08](https://github.com/alexseitsinger/eslint-config-react/commit/1a10d084e0f1e20c5704c9ccb96d77625661f756))
+
+
 <a name="v0.10.0"></a>
 ## [v0.10.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.9.0...v0.10.0) (2019-10-21)
 
