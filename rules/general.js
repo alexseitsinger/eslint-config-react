@@ -1,10 +1,4 @@
-/**
- * @module react/general
- */
 module.exports = {
-  /**
-   * @namespace
-   */
   rules: {
     /**
      * Enforces consistent naming for boolean props.

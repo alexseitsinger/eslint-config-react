@@ -1,10 +1,4 @@
-/**
- * @module react/jsx
- */
 module.exports = {
-  /**
-   * @namespace
-   */
   rules: {
     /**
      * Enforce boolean attributes notation in JSX. (fixable)
