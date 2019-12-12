@@ -1,3 +1,10 @@
+<a name="v0.12.0"></a>
+## [v0.12.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.11.0...v0.12.0) (2019-12-12)
+
+### Code Refactoring
+- Disable forbid-component-props. ([142fb10](https://github.com/alexseitsinger/eslint-config-react/commit/142fb10412e1fd4bf54c89b2ed6d339f17bfa4dd))
+
+
 <a name="v0.11.0"></a>
 ## [v0.11.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.10.0...v0.11.0) (2019-11-25)
 
