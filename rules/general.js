@@ -84,11 +84,11 @@ module.exports = {
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/forbid-component-props.md
      *
      * @example
-     * ["error", {
+     * ["off", {
      *  forbid: ["className", "style"],
      * }]
      */
-    "react/forbid-component-props": ["error", {
+    "react/forbid-component-props": ["off", {
       forbid: ["className", "style"],
     }],
 
