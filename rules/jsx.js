@@ -278,7 +278,7 @@ module.exports = {
      *  allow: "single-child",
      * }]
      */
-    "react/jsx-one-expression-per-line": ["error", {
+    "react/jsx-one-expression-per-line": ["off", {
       allow: "single-child",
     }],
 
