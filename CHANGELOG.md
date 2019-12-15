@@ -1,3 +1,11 @@
+<a name="v0.14.0"></a>
+## [v0.14.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.13.0...v0.14.0) (2019-12-15)
+
+### Code Refactoring
+- Condenses into single file. ([1576a32](https://github.com/alexseitsinger/eslint-config-react/commit/1576a32356eb25d413ff65f18648a9ded69ff111))
+- Removes remaining examples. ([df7354b](https://github.com/alexseitsinger/eslint-config-react/commit/df7354b46d7c859d1127c13459559016de70353a))
+
+
 <a name="v0.13.0"></a>
 ## [v0.13.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.12.0...v0.13.0) (2019-12-15)
 
