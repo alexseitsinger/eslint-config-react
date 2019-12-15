@@ -329,13 +329,6 @@ module.exports = {
      * Prevent missing props validation in a React component definition.
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/prop-types.md
-     *
-     * @example
-     * ["error", {
-     *  ignore: [],
-     *  customValidators: [],
-     *  skipUndeclared: true,
-     * }]
      */
     "react/prop-types": ["error", {
       ignore: [],
@@ -347,9 +340,6 @@ module.exports = {
      * Prevent missing React when using JSX.
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/react-in-jsx-scope.md
-     *
-     * @example
-     * "error"
      */
     "react/react-in-jsx-scope": "error",
 
@@ -358,11 +348,6 @@ module.exports = {
      * prop.
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-default-props.md
-     *
-     * @example
-     * ["error", {
-     *  forbidDefaultForRequired: true,
-     * }]
      */
     "react/require-default-props": ["error", {
       forbidDefaultForRequired: true,
@@ -372,9 +357,6 @@ module.exports = {
      * Enforce React components to have a shouldComponentUpdate method.
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-optimization.md
-     *
-     * @example
-     * "off"
      */
     "react/require-optimization": "off",
 
@@ -382,9 +364,6 @@ module.exports = {
      * Enforce ES5 or ES6 class for returning value in render function.
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/require-render-return.md
-     *
-     * @example
-     * "error"
      */
     "react/require-render-return": "error",
 
@@ -392,12 +371,6 @@ module.exports = {
      * Prevent extra closing tags for components without children. (fixable)
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/self-closing-comp.md
-     *
-     * @example
-     * ["error", {
-     *  component: true,
-     *  html: true,
-     * }]
      */
     "react/self-closing-comp": ["error", {
       component: true,
@@ -408,55 +381,6 @@ module.exports = {
      * Enforce component methods order.
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-comp.md
-     *
-     * @example
-     * ["error", {
-     *   order: [
-     *     "static-methods",
-     *     "instance-variables",
-     *     "lifecycle",
-     *     "/^on.+$/",
-     *     "getters",
-     *     "setters",
-     *     "/^(get|set)(?!(InitialState$|DefaultProps$|ChildContext$)).+$/",
-     *     "instance-methods",
-     *     "everything-else",
-     *     "rendering",
-     *   ],
-     *   groups: {
-     *     "lifecycle": [
-     *       'displayName',
-     *       'propTypes',
-     *       'contextTypes',
-     *       'childContextTypes',
-     *       'mixins',
-     *       'statics',
-     *       'defaultProps',
-     *       'constructor',
-     *       'getDefaultProps',
-     *       'getInitialState',
-     *       'state',
-     *       'getChildContext',
-     *       'getDerivedStateFromProps',
-     *       'componentWillMount',
-     *       'UNSAFE_componentWillMount',
-     *       'componentDidMount',
-     *       'componentWillReceiveProps',
-     *       'UNSAFE_componentWillReceiveProps',
-     *       'shouldComponentUpdate',
-     *       'componentWillUpdate',
-     *       'UNSAFE_componentWillUpdate',
-     *       'getSnapshotBeforeUpdate',
-     *       'componentDidUpdate',
-     *       'componentDidCatch',
-     *       'componentWillUnmount'
-     *     ],
-     *     rendering: [
-     *       "/^render.+$/",
-     *       "render"
-     *     ]
-     *   }
-     * }]
      */
     "react/sort-comp": ["error", {
       order: [
@@ -515,15 +439,6 @@ module.exports = {
      * Enforce propTypes declarations alphabetical sorting.
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/sort-prop-types.md
-     *
-     * @example
-     * ["off", {
-     *  callbacksLast: true,
-     *  ignoreCase: false,
-     *  requiredFirst: true,
-     *  sortShapeProp: true,
-     *  noSortAlphabetically: false,
-     * }]
      */
     "react/sort-prop-types": ["off", {
       callbacksLast: true,
@@ -538,9 +453,6 @@ module.exports = {
      * with a class property.
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/state-in-constructor.md
-     *
-     * @example
-     * ["error", "never"]
      */
     "react/state-in-constructor": ["error", "never"],
 
@@ -548,9 +460,6 @@ module.exports = {
      * Enforces where React component static properties should be positioned.
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/static-property-placement.md
-     *
-     * @example
-     * ["error", "static public field"]
      */
     "react/static-property-placement": ["error", "static public field"],
 
@@ -558,9 +467,6 @@ module.exports = {
      * Enforce style prop value being an object.
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/style-prop-object.md
-     *
-     * @example
-     * "error"
      */
     "react/style-prop-object": "error",
 
@@ -568,9 +474,6 @@ module.exports = {
      * Prevent void DOM elements (e.g. <img />, <br />) from receiving children.
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/void-dom-elements-no-children.md
-     *
-     * @example
-     * "error"
      */
     "react/void-dom-elements-no-children": "error",
 
@@ -794,9 +697,6 @@ module.exports = {
      * Disallow multiple spaces between inline JSX props. (fixable)
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-multi-spaces.md
-     *
-     * @example
-     * "error"
      */
     "react/jsx-props-no-multi-spaces": "error",
 
@@ -804,9 +704,6 @@ module.exports = {
      * Disallow JSX props spreading.
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-props-no-spreading.md
-     *
-     * @example
-     * "off"
      */
     "react/jsx-props-no-spreading": "off",
 
@@ -814,11 +711,6 @@ module.exports = {
      * Enforce default props alphabetical sorting.
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-default-props.md
-     *
-     * @example
-     * ["off", {
-     *  ignoreCase: true,
-     * }]
      */
     "react/jsx-sort-default-props": ["off", {
       ignoreCase: true,
@@ -828,16 +720,6 @@ module.exports = {
      * Enforce props alphabetical sorting. (fixable)
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-sort-props.md
-     *
-     * @example
-     * ["off", {
-     *  callbacksLast: true,
-     *  shorthandFirst: true,
-     *  shorthandLast: false,
-     *  ignoreCase: true,
-     *  noSortAlphabetically: true,
-     *  reservedFirst: true,
-     * }]
      */
     "react/jsx-sort-props": ["off", {
       callbacksLast: true,
@@ -852,14 +734,6 @@ module.exports = {
      * Validate whitespace in and around the JSX opening and closing brackets.
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-tag-spacing.md
-     *
-     * @example
-     * ["error", {
-     *  closingSlash: "never",
-     *  beforeSelfClosing: "always",
-     *  afterOpening: "never",
-     *  beforeClosing: "never",
-     * }]
      */
     "react/jsx-tag-spacing": ["error", {
       closingSlash: "never",
@@ -872,9 +746,6 @@ module.exports = {
      * Prevent React to be incorrectly marked as unused.
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-react.md
-     *
-     * @example
-     * "error"
      */
     "react/jsx-uses-react": "error",
 
@@ -882,9 +753,6 @@ module.exports = {
      * Prevent variables used in JSX to be incorrectly marked as unused.
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-uses-vars.md
-     *
-     * @example
-     * "error"
      */
     "react/jsx-uses-vars": "error",
 
@@ -892,17 +760,6 @@ module.exports = {
      * Prevent missing parentheses around multilines JSX. (fixable)
      *
      * https://github.com/yannickcr/eslint-plugin-react/blob/master/docs/rules/jsx-wrap-multilines.md
-     *
-     * @example
-     * ["error", {
-     *  declaration: "parens-new-line",
-     *  assignment: "parens-new-line",
-     *  return: "parens-new-line",
-     *  arrow: "parens-new-line",
-     *  condition: "parens-new-line",
-     *  logical: "parens-new-line",
-     *  prop: "parens-new-line",
-     * }]
      */
     "react/jsx-wrap-multilines": ["error", {
       declaration: "parens-new-line",
