@@ -1,3 +1,10 @@
+<a name="v0.13.0"></a>
+## [v0.13.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.12.0...v0.13.0) (2019-12-15)
+
+### Code Refactoring
+- Disables one expression per line. ([6a40f6e](https://github.com/alexseitsinger/eslint-config-react/commit/6a40f6e972cf7dbd8b28c4d96763fc106c013ca4))
+
+
 <a name="v0.12.0"></a>
 ## [v0.12.0](https://github.com/alexseitsinger/eslint-config-react/compare/v0.11.0...v0.12.0) (2019-12-12)
 
